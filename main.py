@@ -1,4 +1,4 @@
-strings = [   
+list = [   
     "Джинсы Saint Laurent, она позвала в гости",
     "Прошли так много улиц, мы с кварталов, homie",
     "Шёл в дорогих педалях и я стёр подошву",
@@ -8,7 +8,7 @@ strings = [
 ]
 letters= "Вв"   
 count = 0   
-for line in strings:    
+for line in list:    
     for letter in letters:   
         if letter in line:  
             count += 1      
